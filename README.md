@@ -12,7 +12,7 @@ package main
 import (
 	"log"
 
-	"github.com/mtyj-hz/mtoss-go-sdk"
+	mtoss "github.com/mtyj-hz/mtoss-go-sdk"
 	"github.com/mtyj-hz/mtoss-go-sdk/pkg/credentials"
 )
 
@@ -23,7 +23,7 @@ func main() {
 	useSSL := true
 
 	// 初使化 minio client对象。
-	minioClient, err := minio.New(endpoint, &minio.Options{
+	minioClient, err := mtoss.New(endpoint, &mtoss.Options{
 		Creds:  credentials.NewStaticV4(accessKeyID, secretAccessKey, ""),
 		Secure: useSSL,
 	})
@@ -33,3 +33,4 @@ func main() {
 
 	log.Printf("%#v\n", minioClient) // minioClient初使化成功
 }
+```

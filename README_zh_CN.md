@@ -13,28 +13,29 @@ mtoss client需要以下4个参数来连接与Amazon S3兼容的对象存储。
 package main
 
 import (
-  "log"
+	"log"
 
-  "github.com/mtyj-hz/mtoss-go-sdk"
-  "github.com/mtyj-hz/mtoss-go-sdk/pkg/credentials"
+	mtoss "github.com/mtyj-hz/mtoss-go-sdk"
+	"github.com/mtyj-hz/mtoss-go-sdk/pkg/credentials"
 )
 
 func main() {
-  endpoint := "play.min.io"
-  accessKeyID := "Q3AM3UQ867SPQQA43P2F"
-  secretAccessKey := "zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG"
-  useSSL := true
+	endpoint := "play.min.io"
+	accessKeyID := "Q3AM3UQ867SPQQA43P2F"
+	secretAccessKey := "zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG"
+	useSSL := true
 
-  // 初使化 minio client对象。
-  minioClient, err := minio.New(endpoint, &minio.Options{
-    Creds:  credentials.NewStaticV4(accessKeyID, secretAccessKey, ""),
-    Secure: useSSL,
-  })
-  if err != nil {
-    log.Fatalln(err)
-  }
+	// 初使化 minio client对象。
+	minioClient, err := mtoss.New(endpoint, &mtoss.Options{
+		Creds:  credentials.NewStaticV4(accessKeyID, secretAccessKey, ""),
+		Secure: useSSL,
+	})
+	if err != nil {
+		log.Fatalln(err)
+	}
 
-  log.Printf("%#v\n", minioClient) // minioClient初使化成功
+	log.Printf("%#v\n", minioClient) // minioClient初使化成功
 }
+
 
 ```

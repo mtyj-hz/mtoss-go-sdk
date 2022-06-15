@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package minio
+package mtoss_go_sdk
 
 // Non exhaustive list of AWS S3 standard error responses -
 // http://docs.aws.amazon.com/AmazonS3/latest/API/ErrorResponses.html

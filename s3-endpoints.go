@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package minio
+package mtoss_go_sdk
 
 // awsS3EndpointMap Amazon S3 endpoint map.
 var awsS3EndpointMap = map[string]string{

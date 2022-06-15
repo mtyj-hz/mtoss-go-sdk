@@ -1,4 +1,4 @@
-package minio
+package mtoss_go_sdk
 
 import (
 	"context"

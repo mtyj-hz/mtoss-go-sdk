@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package minio
+package mtoss_go_sdk
 
 import (
 	"encoding/xml"

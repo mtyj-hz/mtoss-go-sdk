@@ -1,3 +1,4 @@
+//go:build go1.7 || go1.8
 // +build go1.7 go1.8
 
 /*
@@ -17,7 +18,7 @@
  * limitations under the License.
  */
 
-package minio
+package mtoss_go_sdk
 
 import (
 	"crypto/tls"

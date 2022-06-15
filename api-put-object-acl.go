@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/minio/minio-go/v7/pkg/s3utils"
+	"github.com/mtyj-hz/mtoss-go-sdk/pkg/s3utils"
 )
 
 func (c *Client) PutObjectACL(ctx context.Context, bucketName, objectName, acl string, opts ObjectAclMtOpts) error {

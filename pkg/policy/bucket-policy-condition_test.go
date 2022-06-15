@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/minio/minio-go/v7/pkg/set"
+	"github.com/mtyj-hz/mtoss-go-sdk/pkg/set"
 )
 
 var json = jsoniter.ConfigCompatibleWithStandardLibrary

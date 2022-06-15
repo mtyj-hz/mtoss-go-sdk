@@ -8,7 +8,7 @@ This document assumes that you have a working [Go development environment](https
 
 ## Download from Github
 ```sh
-GO111MODULE=on go get github.com/minio/minio-go/v7
+GO111MODULE=on go get github.com/mtyj-hz/mtoss-go-sdk
 ```
 
 ## Initialize MinIO Client
@@ -25,8 +25,8 @@ package main
 import (
 	"log"
 
-	"github.com/minio/minio-go/v7"
-	"github.com/minio/minio-go/v7/pkg/credentials"
+	"github.com/mtyj-hz/mtoss-go-sdk"
+	"github.com/mtyj-hz/mtoss-go-sdk/pkg/credentials"
 )
 
 func main() {
@@ -61,8 +61,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/minio/minio-go/v7"
-	"github.com/minio/minio-go/v7/pkg/credentials"
+	"github.com/mtyj-hz/mtoss-go-sdk"
+	"github.com/mtyj-hz/mtoss-go-sdk/pkg/credentials"
 )
 
 func main() {

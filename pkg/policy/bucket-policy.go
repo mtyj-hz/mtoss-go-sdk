@@ -23,7 +23,7 @@ import (
 	"strings"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/minio/minio-go/v7/pkg/set"
+	"github.com/mtyj-hz/mtoss-go-sdk/pkg/set"
 )
 
 // BucketPolicy - Bucket level policy.

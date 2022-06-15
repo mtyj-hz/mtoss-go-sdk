@@ -1,6 +1,6 @@
-module github.com/minio/minio-go/v7
+module github.com/mtyj-hz/mtoss-go-sdk
 
-go 1.15
+go 1.17
 
 require (
 	github.com/dustin/go-humanize v1.0.0

@@ -28,8 +28,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/minio/minio-go/v7/pkg/replication"
-	"github.com/minio/minio-go/v7/pkg/s3utils"
+	"github.com/mtyj-hz/mtoss-go-sdk/pkg/replication"
+	"github.com/mtyj-hz/mtoss-go-sdk/pkg/s3utils"
 )
 
 // RemoveBucketReplication removes a replication config on an existing bucket.

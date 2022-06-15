@@ -22,7 +22,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/minio/minio-go/v7/pkg/set"
+	"github.com/mtyj-hz/mtoss-go-sdk/pkg/set"
 )
 
 // EventType is a S3 notification event associated to the bucket notification configuration

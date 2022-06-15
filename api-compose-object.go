@@ -29,8 +29,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/minio/minio-go/v7/pkg/encrypt"
-	"github.com/minio/minio-go/v7/pkg/s3utils"
+	"github.com/mtyj-hz/mtoss-go-sdk/pkg/encrypt"
+	"github.com/mtyj-hz/mtoss-go-sdk/pkg/s3utils"
 )
 
 // CopyDestOptions represents options specified by user for CopyObject/ComposeObject APIs

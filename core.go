@@ -22,7 +22,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/minio/minio-go/v7/pkg/encrypt"
+	"github.com/mtyj-hz/mtoss-go-sdk/pkg/encrypt"
 )
 
 // Core - Inherits Client and adds new methods to expose the low level S3 APIs.

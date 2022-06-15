@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/minio/minio-go/v7/pkg/s3utils"
+	"github.com/mtyj-hz/mtoss-go-sdk/pkg/s3utils"
 )
 
 type AccessControlPolicy struct {
